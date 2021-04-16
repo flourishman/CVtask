@@ -1,0 +1,83 @@
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrapper {
+    background-color: white;
+    margin: 0 auto;
+    padding: ;
+    width: 60%;
+    display: flex;
+    flex-direction: column; 
+}
+/*@media screen and (max-width: 800px) {
+   .wrapper{
+       width: 400px;
+} 
+}*/
+header {
+    text-align: center;
+    border-bottom: 3px solid #000;
+}
+h1 {
+    font-size: 40px;
+}
+header .contact, h1 {
+    line-height: 0.2;
+    font-weight: bold;
+}
+#remove {
+    line-height: 0;
+}
+h4 {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.objectives, .education,
+.other, .skills, 
+.experience, .extra {
+    border-bottom: 3px solid #000;
+}
+.objectives h4, p {
+    margin-left: 70px;
+}
+ul {
+    margin-left: 70px;
+    line-height: 1.5;
+}
+@media screen and (max-width: 480px) {
+.wrapper { 
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 310px; 
+    
+}
+h1 {
+    font-size: 25px;  
+}
+h4 {
+    font-size: 11px;
+}
+body {
+    font-size: 12px;
+    width: 310px;
+}
+
+ul, h4 {
+    margin-left: 35px;
+    padding-right: 10px; 
+}
+.objectives h4, p {
+    margin-left: 35px;
+    padding-right: 10px;
+}
+}
+</style>
